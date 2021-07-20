@@ -1,0 +1,10 @@
+.background{
+    background-color: blanchedalmond;
+    padding: 20px 50px;
+}
+.page-header{
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}

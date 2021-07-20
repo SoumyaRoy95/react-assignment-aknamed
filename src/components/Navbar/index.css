@@ -1,0 +1,41 @@
+.navbar{
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.logoholder img{
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+}
+.header{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+}
+.menu ul li a{
+    color: white;
+    font-size: medium;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.menu ul li:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.menu ul li.active{
+    font-weight: bolder;
+    text-decoration: underline;
+}

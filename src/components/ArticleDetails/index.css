@@ -1,0 +1,30 @@
+.details{
+    background-color: cornsilk;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.article-header{
+    padding: 10px 0;
+}
+img{
+    height: 450px;
+}
+.author-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.author-name{
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 3px 20px;
+}
+
+.article-description{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+}

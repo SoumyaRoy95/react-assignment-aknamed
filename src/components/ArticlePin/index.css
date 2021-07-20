@@ -1,0 +1,28 @@
+.article_pin{
+    border: 3px solid grey;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.article_pin img {
+    height: 75px;
+    width: 75px;
+    padding: 5px;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    width: 700px;
+}
+.title{
+    font-size: x-large;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+.subject{
+    font-size: small;
+    height: 50px;
+    padding: 5px;
+}

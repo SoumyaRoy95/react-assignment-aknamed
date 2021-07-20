@@ -1,0 +1,46 @@
+.comments-section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.comment-header{
+    border: 1px solid black;
+    padding: 3px 20px;
+    margin-bottom: 10px;
+}
+.comment{
+    height: 60px;
+    padding: 10px;
+    width: 700px;
+}
+.submit-button{
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    height: 25px;
+    width: 200px;
+}
+.name{
+    margin-top: 10px;
+}
+.username{
+    height: 11px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    width: 400px;
+}
+.read-comments{
+    align-items: flex-start;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+}
+.submit-button:disabled{
+    background-color: grey;
+}
